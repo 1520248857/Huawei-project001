@@ -1,0 +1,264 @@
+.shortcut {
+  background: black;
+  height: 36px;
+  line-height: 36px;
+  /* 网站导航 */
+}
+.shortcut .shortcut-nav {
+  height: 100%;
+}
+.shortcut .shortcut-nav > ul {
+  height: 100%;
+  list-style: none;
+}
+.shortcut .shortcut-nav > ul > li {
+  float: left;
+  height: 100%;
+  position: relative;
+}
+.shortcut .shortcut-nav > ul > li .s-dropdown {
+  color: #777;
+  z-index: 1000;
+}
+.shortcut .shortcut-nav > ul > li .s-dropdown:hover {
+  color: red;
+}
+.shortcut .shortcut-nav > ul > li .s-dropdown .aaa {
+  padding: 0 8px;
+  font-size: 12px;
+  color: #afafaf;
+}
+.shortcut .shortcut-nav > ul > li .s-dropdown .aaa:hover {
+  color: red;
+}
+.shortcut .shortcut-nav > ul > li .s-dropdown .aaa .bbb:hover {
+  color: red;
+}
+.shortcut .shortcut-nav > ul > li .s-dropdown .aaa::after {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-position: -71px 0;
+  position: absolute;
+  top: 0;
+  right: -5px;
+}
+.shortcut .shortcut-nav > ul > li:first-child {
+  padding-left: 0;
+}
+.shortcut .shortcut-nav > ul > li:first-child::before {
+  display: none;
+}
+.shortcut .shortcut-nav > ul > li:before {
+  content: "";
+  width: 1px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: 0;
+  background: #414141;
+}
+.shortcut .shortcut-nav > ul > li > a {
+  padding: 0 8px;
+  font-size: 12px;
+  color: #afafaf;
+}
+.shortcut .shortcut-nav > ul > li > a:hover {
+  color: white;
+}
+.shortcut .top-nav-list {
+  text-align: center;
+  padding: 0 12px 0 10px;
+  position: relative;
+}
+.shortcut .top-nav-list:hover {
+  width: 86px;
+  background: white;
+}
+.shortcut .top-nav-list:hover .head-top-subnav {
+  display: block;
+}
+.shortcut .top-nav-list:hover .head-top-subnav li {
+  color: red;
+}
+.shortcut .top-nav-list:hover > p > span {
+  color: red;
+}
+.shortcut .top-nav-list:hover i {
+  background: url(../img/icon-common.svg) no-repeat;
+  width: 14px;
+  height: 14px;
+  background-position: -85px 0;
+  position: absolute;
+  top: 11px;
+  right: 0px;
+}
+.shortcut .top-nav-list p > span {
+  padding: 0 8px;
+  font-size: 12px;
+  color: #afafaf;
+}
+.shortcut .top-nav-list p > i {
+  background: url(../img/icon-common.svg) no-repeat;
+  width: 14px;
+  height: 14px;
+  background-position: -71px 0;
+  position: absolute;
+  top: 11px;
+  right: 0px;
+}
+.shortcut .top-nav-list .head-top-subnav {
+  background: #fff;
+  border-radius: 15px 0 15px 15px;
+  box-shadow: 0 3px 5px 0 #ccc;
+  width: 120px;
+  text-align: center;
+  line-height: 28px;
+  padding: 8px 0 14px;
+  position: absolute;
+  z-index: 2456;
+  right: 0;
+  display: none;
+  top: 30px;
+}
+.shortcut .top-nav-list .head-top-subnav > ul > li > a {
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+  line-height: 32px;
+}
+.shortcut .head-top-subnav a:hover {
+  color: red !important;
+  text-decoration: none;
+}
+.shortcut .webset-nav {
+  width: 800px !important;
+  height: 250px;
+  background: whitesmoke;
+}
+.shortcut .webset-nav .web {
+  box-sizing: border-box;
+}
+.shortcut .webset-nav .web .web-left {
+  position: relative;
+  text-align: center;
+  width: 80px;
+  height: 300px;
+}
+.shortcut .webset-nav .web .web-left > i {
+  background: url(../img/icon-common.svg);
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-position: -202px 0;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  margin: 0 auto;
+}
+.shortcut .webset-nav .web .web-left > span {
+  position: absolute;
+  width: 70px;
+  top: 70px;
+  left: 10px;
+  color: #777;
+}
+.shortcut .webset-nav .web .nav-dl-list {
+  padding: 10px;
+  color: #777;
+}
+.shortcut .webset-nav .web .nav-dl-list > dd {
+  padding: 7px;
+}
+.shortcut .webset-nav .web .nav-dl-list > dd:hover {
+  color: red;
+}
+.shortcut .phone-nav {
+  width: 150px !important;
+  height: 300px;
+  text-align: center;
+}
+.shortcut .phone-nav ul > li {
+  overflow: hidden;
+  text-align: center;
+}
+.shortcut .phone-nav ul > li > img {
+  margin: 8px 20px !important;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 12px;
+}
+header {
+  height: 74px;
+  line-height: 74px;
+  padding: 18px 0 15px;
+}
+header > .banxin {
+  height: 41px;
+  line-height: 41px;
+}
+header > .banxin .left {
+  height: 41px;
+  line-height: 41px;
+}
+header > .banxin .left .logo {
+  margin-right: 34px;
+  height: 100%;
+}
+header > .banxin .left .logo a {
+  height: 100%;
+}
+header > .banxin .left .logo a img {
+  width: 205px;
+}
+header > .banxin .left .nave ul {
+  list-style: none;
+  height: 41px;
+}
+header > .banxin .left .nave ul li {
+  float: left;
+  height: 41px;
+  line-height: 41px;
+  margin-right: 24px;
+}
+header > .banxin .left .nave ul li a {
+  height: 100%;
+  line-height: 100%;
+}
+header > .banxin .left .nave ul li a img {
+  margin-top: 8px;
+  height: 24px;
+}
+header > .banxin .left .nave ul li a span {
+  font-size: 16px;
+  color: #333;
+}
+header > .banxin > .right .search {
+  height: 30px;
+  width: 238px;
+  outline: #aaa;
+}
+header > .banxin > .right .search:focus {
+  outline: #aaa;
+}
+header > .banxin > .right .search input {
+  border-radius: 15px 15px 15px 15px;
+  height: 30px;
+  width: 230px;
+  border: 1px solid #f0f0f0;
+  background-color: whitesmoke;
+}
+header > .banxin > .right .search input:hover {
+  border: 1px solid #aaa;
+}
+header > .banxin > .right .search input:focus {
+  outline: #aaa;
+}
+header > .banxin > .right .search .glyphicon {
+  top: -33px;
+  z-index: 999;
+  right: -190px;
+}

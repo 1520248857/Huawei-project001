@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* li {
+  list-style: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.banxin {
+  width: 1200px;
+  margin: 0 auto;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+img {
+  display: block;
+}
+a {
+  color: #777;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+  color: red;
+}
+body {
+  background: whitesmoke;
+}

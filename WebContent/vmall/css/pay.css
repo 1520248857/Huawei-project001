@@ -1,0 +1,139 @@
+.logo-name {
+  width: 100%;
+  height: 65px;
+  margin-top: 40px; }
+  .logo-name a {
+    display: inline-block;
+    width: 188px;
+    height: 28px;
+    margin-top: -10px; }
+    .logo-name a img {
+      height: auto;
+      max-width: 100%;
+      vertical-align: middle; }
+  .logo-name span {
+    line-height: 20px;
+    margin-left: 26px;
+    padding: 0 26px;
+    border-left: 1px solid #cccccc;
+    color: #3A3A3A;
+    letter-spacing: 1px;
+    font-size: 16px; }
+
+.cashier_order_area {
+  width: 100%;
+  border-top: 3px solid #63AA56; }
+  .cashier_order_area img {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin: 30px 21px 0 34px;
+    vertical-align: middle; }
+  .cashier_order_area .orderInfo_words {
+    float: left;
+    width: 1058px;
+    padding: 28px 22px 20px 0; }
+    .cashier_order_area .orderInfo_words .orderWords01 {
+      line-height: 26px; }
+      .cashier_order_area .orderInfo_words .orderWords01 h4 {
+        float: left;
+        font-size: 18px;
+        line-height: 26px;
+        color: #53A724; }
+      .cashier_order_area .orderInfo_words .orderWords01 span {
+        float: left;
+        margin-left: 15px; }
+      .cashier_order_area .orderInfo_words .orderWords01 .payNum {
+        float: right; }
+        .cashier_order_area .orderInfo_words .orderWords01 .payNum span {
+          float: right;
+          font-size: 24px;
+          color: #DA3232;
+          margin-right: 6px;
+          font-weight: 600; }
+    .cashier_order_area .orderInfo_words h5 {
+      font-size: 12px;
+      line-height: 20px;
+      margin-top: 20px;
+      color: #333333; }
+    .cashier_order_area .orderInfo_words p {
+      margin-top: 5px;
+      color: #DA3232; }
+  .cashier_order_area .order-nav {
+    position: relative;
+    margin-top: 46px;
+    margin-bottom: 0;
+    z-index: 9;
+    border-bottom: 1px solid #ddd; }
+    .cashier_order_area .order-nav > li {
+      margin-bottom: -1px;
+      float: left;
+      width: 168px;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 14px;
+      line-height: 20px;
+      background: #FFFFFF;
+      border: 1px solid #CCCCCC;
+      cursor: pointer; }
+    .cashier_order_area .order-nav > li.current {
+      border-bottom-color: transparent; }
+  .cashier_order_area .tab-content {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    padding: 37px 50px 37px 60px; }
+    .cashier_order_area .tab-content > ul {
+      display: none; }
+    .cashier_order_area .tab-content > ul.active {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start; }
+    .cashier_order_area .tab-content ul > li.selected .pay_typeIco {
+      border: 1px solid #DA3232; }
+      .cashier_order_area .tab-content ul > li.selected .pay_typeIco i {
+        position: absolute;
+        width: 28px;
+        height: 24px;
+        bottom: 0;
+        right: -1px;
+        background: url(../images/select_icon.png) no-repeat 0;
+        z-index: 10; }
+    .cashier_order_area .tab-content ul > li {
+      position: relative;
+      display: inline-table;
+      width: 268px;
+      vertical-align: top;
+      padding-bottom: 16px; }
+      .cashier_order_area .tab-content ul > li .pay_typeIco {
+        position: relative;
+        width: 256px;
+        line-height: 50px;
+        height: 50px;
+        text-align: right;
+        border: 1px solid #CCCCCC;
+        cursor: pointer; }
+        .cashier_order_area .tab-content ul > li .pay_typeIco img {
+          width: auto;
+          height: 30px;
+          margin: 11px 77px;
+          vertical-align: middle; }
+
+.paybtn {
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 56px; }
+  .paybtn span {
+    background: rgba(218, 50, 50, 0.5);
+    color: #ffffff;
+    width: 168px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    cursor: pointer;  }
+
+/*# sourceMappingURL=pay.css.map */

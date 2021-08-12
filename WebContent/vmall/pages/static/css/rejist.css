@@ -1,0 +1,652 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/* 顶部DIV */
+#top {
+	height: 50px;
+	background-color: rgb(242, 242, 242);
+	margin:auto;
+}
+/* 顶部logo */
+.head_logo {
+	margin-left: 150px;
+	float: left;
+	margin-top: 7px;
+}
+/* 顶部文字 */
+.head_font {
+	position: absolute;
+	top: 14px;
+	left: 250px;
+	font-size: 16px;
+	margin-left: 30px;
+	padding-left: 18px;
+	border-left: 1px solid rgba(0, 0, 0, 0.2)
+}
+/* 中间左边div与顶部的距离和大小 */
+.hwid_root {
+	height: 706px;
+	margin-top: 45px;
+}
+/* 手机号注册 */
+.hwid-left {
+	width: 272px;
+	height: 50px;
+	margin-left: 150px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .05);
+	font-size: 16px;
+	line-height: 52px;
+	text-align: center;
+	color: black;
+}
+/* 手机号注册的鼠标悬停事件 */
+.hwid-left:hover {
+	background-color: rgb(229, 242, 255);
+	cursor: pointer;
+}
+/* 手机号注册文字的样式 */
+.hwid-left>span {
+	padding-right: 47px;
+	font-size: 14px;
+}
+/* 邮箱注册 */
+.hwid-left2 {
+	width: 272px;
+	height: 50px;
+	margin-left: 150px;
+	border-radius: 8px;
+	font-size: 16px;
+	line-height: 52px;
+	text-align: center;
+}
+/* 邮箱注册鼠标悬停 */
+.hwid-left2:hover {
+	background-color: rgb(229, 242, 255);
+	cursor: pointer;
+}
+/* 手机注册图标 */
+.shoujitubiao {
+	position: absolute;
+	left: 205px;
+	margin-top: 18px;
+}
+/* 邮箱注册图标 */
+.youxiangtubiao {
+	position: absolute;
+	left: 205px;
+	margin-top: 19px;
+}
+/* 邮箱注册文字 */
+.hwid-left2>span {
+	padding-right: 33px;
+	font-size: 14px;
+}
+
+/* 中间头部div*/
+.hwid-reg-detail {
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top: 128px;
+	left: 620px;
+}
+/* 华为账号注册 */
+.hwid-reg-detail>span {
+	font-size: 32px;
+	margin-left: 150px;
+}
+/* 已有账号 */
+#center_head {
+	position: relative;
+	top: -15px;
+	left: 790px;
+	font-size: 18px;
+}
+/* 去登陆 */
+#center_a {
+	position: relative;
+	top: -15px;
+	left: 790px;
+	font-size: 18px;
+	color: #007dff;
+	text-decoration: none;
+}
+/* 去登陆 */
+#center_a:hover {
+	cursor: pointer;
+}
+/*选择国家  */
+.input_guojia {
+	position: relative;
+	top: 25px;
+	left: 645px;
+	width: 442px;
+	height: 52px;
+	border-radius: 8px;
+	background: rgba(0, 0, 0, .05);
+	font-size: 16px;
+	line-height: 47px;
+}
+/* 国家/地区 */
+.input_guojia>span {
+	margin-left: 15px;
+	font-size: 14px;
+}
+/* 国家文字 */
+.xuanzeguojia {
+	position: relative;
+	left: 290px;
+	line-height: 40px;
+}
+/* 国家文字悬停事件 */
+.xuanzeguojia:hover {
+	cursor: pointer;
+}
+/* 图片 */
+.xiala {
+	position: relative;
+	left: 840px;
+	top: 71px;
+	z-index: 100;
+}
+/* 图片鼠标悬停 */
+.xiala:hover {
+	cursor: pointer;
+}
+/* 国家下拉列表 */
+.guojia {
+	position: relative;
+	left: 183px;
+	top: 0px;
+	width: 250px;
+	height: 150px;
+	border: 4px solid rgba(0, 0, 0, .05);
+	overflow: auto;
+	z-index: 10;
+	background-color: white;
+	border-radius: 8px;
+	display: none;
+}
+/* 国家下拉列表里的字 */
+.guojia>dt {
+	padding-left: 50px;
+	border-bottom: 1px solid #838383;
+}
+/* 下拉列表字的鼠标悬停 */
+.guojia>dt:hover {
+	cursor: pointer;
+	background-color: rgb(229, 242, 255);
+}
+/* 手机号码框 */
+.inphone {
+	margin-left: 645px;
+	margin-top: 20px;
+	width: 295px;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+	background-color: rgba(0, 0, 0, .05);
+	outline: none;
+	padding-left: 150px;
+}
+/* 改变点击文本框的颜色*/
+.inphone:focus {
+	border: 1px solid #007DFF;
+}
+/* code 区号 */
+#code {
+	position: relative;
+	left: 655px;
+	top: 54px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	padding-right: 45px;
+	font-size: 14px;
+}
+/* 区号鼠标悬停 */
+#code:hover {
+	cursor: pointer;
+}
+/* 区号边上的图片 */
+#test2 {
+	position: relative;
+	left: 608px;
+	top: 65px;
+}
+/* 手机号码输入错误提示框 */
+#tel-error {
+	position: relative;
+	top: 40px;
+	right: 445px;
+	color: red;
+	font-size: 14px;
+}
+/* 验证码框 */
+.captcha {
+	width: 433px;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+	background-color: rgba(0, 0, 0, .05);
+	outline: none;
+	padding-left: 15px;
+	margin-left: 645px;
+	margin-top: 40px;
+}
+/* 验证码框得到焦点 */
+.captcha:focus {
+	border: 1px solid #007DFF;
+}
+/* 验证码 */
+.huoquyanzhengma {
+	position: absolute;
+	left: 999px;
+	top: 436.5px;
+	font-size: 14px;
+	color: #007dff;
+	opacity: 0.4;
+}
+
+.huoquyanzhengma:hover {
+	cursor: pointer;
+}
+/* 验证码框 输入错误 */
+#captcha-error {
+	position: relative;
+	top: 40px;
+	right: 445px;
+	color: red;
+	font-size: 14px;
+}
+/* 密码框 */
+.password {
+	width: 433px;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+	background-color: rgba(0, 0, 0, .05);
+	outline: none;
+	padding-left: 15px;
+	margin-left: 645px;
+	margin-top: 30px;
+}
+
+.password:focus {
+	border: 1px solid #007DFF;
+}
+/* 密码框提示 */
+#password-error {
+	position: relative;
+	top: 40px;
+	right: 445px;
+	color: red;
+	font-size: 14px;
+}
+/* 切换密码可见 */
+.yanjing {
+	position: absolute;
+	left: 1050px;
+	top: 550px;
+	cursor: pointer;
+}
+/* 重复密码 */
+.agin_password {
+	width: 433px;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+	background-color: rgba(0, 0, 0, .05);
+	outline: none;
+	padding-left: 15px;
+	margin-left: 645px;
+	margin-top: 30px;
+}
+
+.agin_password:focus {
+	border: 1px solid #007DFF;
+}
+/* 切换密码可见 */
+.yanjing1 {
+	position: absolute;
+	left: 1050px;
+	top: 630px;
+	cursor: pointer;
+}
+
+#agin_password-error {
+	position: relative;
+	top: 40px;
+	right: 445px;
+	color: red;
+	font-size: 14px;
+}
+
+.emil {
+	width: 433px;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+	background-color: rgba(0, 0, 0, .05);
+	outline: none;
+	padding-left: 15px;
+	margin-left: 645px;
+	margin-top: 30px;
+}
+/* 验证码框得到焦点 */
+.emil:focus {
+	border: 1px solid #007DFF;
+}
+
+#chusheng {
+	width: 450px;
+	height: 50px;
+	margin-left: 645px;
+	margin-top: 27px;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, .05);
+}
+
+.chushengriqi {
+	font-size: 14px;
+	position: relative;
+	top: -13px;
+	left: 15px;
+}
+
+.nian {
+	font-size: 14px;
+	position: relative;
+	top: -10px;
+	left: 167px;
+}
+
+.nian:hover {
+	cursor: pointer;
+}
+
+.nianfen {
+	border: 4px solid rgba(0, 0, 0, .05);
+	width: 100px;
+	height: 170px;
+	overflow: auto;
+	z-index: 10;
+	background-color: white;
+	position: absolute;
+	top: 704px;
+	left: 720px;
+	border-radius: 8px;
+	display: none;
+}
+
+.nianfen>dt {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.nianfen>dt:hover {
+	cursor: pointer;
+	background-color: rgb(229, 242, 255);
+}
+
+.yue {
+	font-size: 14px;
+	position: relative;
+	top: -11px;
+	left: 10px;
+}
+
+.yue:hover {
+	cursor: pointer;
+}
+
+.xiala2 {
+	position: relative;
+	top: -0.5px;
+	left: 10px;
+}
+
+.ri {
+	font-size: 14px;
+	position: relative;
+	top: -12px;
+	left: 10px;
+}
+
+.ri:hover {
+	cursor: pointer;
+}
+
+.xiala3 {
+	position: relative;
+	top: -0.5px;
+	left: 10px;
+}
+
+.yuefen {
+	border: 4px solid rgba(0, 0, 0, .05);
+	width: 100px;
+	height: 170px;
+	overflow: auto;
+	z-index: 10;
+	background-color: white;
+	position: absolute;
+	top: 704px;
+	left: 782px;
+	border-radius: 8px;
+	display: none;
+}
+
+.yuefen>dt {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.yuefen>dt:hover {
+	cursor: pointer;
+	background-color: rgb(229, 242, 255);
+}
+
+.ri:hover {
+	cursor: pointer;
+}
+
+.riqi {
+	border: 4px solid rgba(0, 0, 0, .05);
+	width: 100px;
+	height: 170px;
+	overflow: auto;
+	z-index: 10;
+	background-color: white;
+	position: absolute;
+	top: 704px;
+	left: 850px;
+	border-radius: 8px;
+	display: none;
+}
+
+.riqi>dt {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.riqi>dt:hover {
+	cursor: pointer;
+	background-color: rgb(229, 242, 255);
+}
+
+.jinggao:hover {
+	cursor: pointer;
+}
+
+.xiala1 {
+	margin-left: 164px;
+	margin-top: 12px;
+}
+
+.jinggao {
+	position: absolute;
+	top: 674px;
+	left: 1100px;
+}
+
+.jinggao:hover {
+	cursor: pointer;
+}
+
+#submit {
+	position: absolute;
+	left: 720px;
+	top: 760px;
+	width: 276px;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	background-color: rgb(158, 206, 255);
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+#submit:hover {
+	cursor: pointer;
+}
+
+/* 底部 */
+#dibu {
+	height: 88px;
+	margin-top: 150px;
+	background-color: rgba(0, 0, 0, .05);
+}
+
+.yunkongjian {
+	position: relative;
+	top: 30px;
+	left: 490px;
+	font-size: 14px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	padding-right: 15px;
+}
+
+.yunkongjian:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.yinsi {
+	position: relative;
+	top: 30px;
+	left: 500px;
+	font-size: 14px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	padding-right: 15px;
+}
+
+.yinsi:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.wenti {
+	position: relative;
+	top: 30px;
+	left: 510px;
+	font-size: 14px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	padding-right: 15px;
+}
+
+.wenti:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.cookie {
+	position: relative;
+	top: 30px;
+	left: 520px;
+	font-size: 14px;
+	padding-right: 15px;
+}
+
+.cookie:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.huaweigongsi {
+	position: relative;
+	top: 55px;
+	left: -155px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.2);
+	padding-right: 15px;
+}
+
+/* 自定义提示框 */
+#tishikuang {
+	width: 200px;
+	height: 65px;
+	border: 1px solid rgba(0, 0, 0, .05);
+	position: absolute;
+	left: 1000px;
+	top: 649px;
+	box-shadow: 1px 2px 3px #838383;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 14px;
+	display: none;
+}
+
+#tishikuang>span {
+	position: relative;
+	top: 13px;
+}
+
+#tishikuang::before {
+	content: '';
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-right-color: #cccccc;
+	position: absolute;
+	right: 100%;
+	top: 70%;
+	margin-top: -20px;
+}
+
+#tishikuang::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-right-color: #FFFFFF;
+	position: absolute;
+	right: 100%;
+	top: 70%;
+	margin-top: -18px;
+}
+
+li {
+	list-style: none;
+	position: absolute;
+	left: 1030px;
+	top: 435px;
+	color: #838383;
+	display: none;
+}
+
+#b{
+	position: relative;
+	left: 1100px;
+	top:-35px;
+}
